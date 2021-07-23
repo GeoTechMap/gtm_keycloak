@@ -1,0 +1,1 @@
+2021-05-17 10:20:04,072 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=demo, clientId=null, userId=null, ipAddress=127.0.0.1, error=expired_code, restart_after_timeout=true, authSessionParentId=7df0cc5b-f3fc-4303-8378-b08b99a58f34, authSessionTabId=YaHBeXb-16U

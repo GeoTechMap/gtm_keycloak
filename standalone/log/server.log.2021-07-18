@@ -1,0 +1,25 @@
+2021-07-18 09:08:08,984 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) SQL Error: 0, SQLState: 23502
+2021-07-18 09:08:09,074 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) ERROR: null value in column "email" violates not-null constraint
+  Detail: Failing row contains (33, null, null, null, null, null, , null, , null, null, , kjhb, null).
+  Where: SQL statement "INSERT INTO public.utilisateurs(nom, prenom, email, username, adresse, id_keycloak, telephone)
+		VALUES(NEW.last_name , NEW.first_name , NEW.email , NEW.username, '', '', '')"
+PL/pgSQL function function_copy() line 3 at SQL statement
+2021-07-18 09:16:57,756 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) SQL Error: 0, SQLState: 23502
+2021-07-18 09:16:57,784 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) ERROR: null value in column "email" violates not-null constraint
+  Detail: Failing row contains (34, null, null, null, null, null, , null, , null, null, , kjhb, null).
+  Where: SQL statement "INSERT INTO public.utilisateurs(nom, prenom, email, username, adresse, id_keycloak, telephone)
+		VALUES(NEW.last_name , NEW.first_name , NEW.email , NEW.username, '', '', '')"
+PL/pgSQL function function_copy() line 3 at SQL statement
+2021-07-18 09:24:00,278 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) SQL Error: 0, SQLState: 23502
+2021-07-18 09:24:00,297 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) ERROR: null value in column "email" violates not-null constraint
+  Detail: Failing row contains (35, null, null, null, null, null, , null, , null, null, , kjhb, null).
+  Where: SQL statement "INSERT INTO public.utilisateurs(nom, prenom, email, username, adresse, id_keycloak, telephone)
+		VALUES(NEW.last_name , NEW.first_name , NEW.email , NEW.username, '', '', '')"
+PL/pgSQL function function_copy() line 3 at SQL statement
+2021-07-18 09:24:08,846 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) SQL Error: 0, SQLState: 23502
+2021-07-18 09:24:08,846 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-36) ERROR: null value in column "email" violates not-null constraint
+  Detail: Failing row contains (36, null, null, null, null, null, , null, , null, null, , kjhb, null).
+  Where: SQL statement "INSERT INTO public.utilisateurs(nom, prenom, email, username, adresse, id_keycloak, telephone)
+		VALUES(NEW.last_name , NEW.first_name , NEW.email , NEW.username, '', '', '')"
+PL/pgSQL function function_copy() line 3 at SQL statement
+2021-07-18 10:09:09,464 WARN  [org.keycloak.events] (default task-42) type=UPDATE_PASSWORD_ERROR, realmId=GTM, clientId=gtm_app, userId=787d1eec-9f4e-4715-a755-28b077895911, ipAddress=127.0.0.1, error=password_confirm_error, auth_method=openid-connect, custom_required_action=UPDATE_PASSWORD, response_type=code, redirect_uri=http://localhost:3000/#/dashboard, remember_me=false, code_id=a12ecf25-68e9-4a97-846a-f48074a2ae95, response_mode=fragment, username=admin, authSessionParentId=a12ecf25-68e9-4a97-846a-f48074a2ae95, authSessionTabId=7O3TKeXvhZg

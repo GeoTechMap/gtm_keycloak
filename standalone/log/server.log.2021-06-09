@@ -1,0 +1,2 @@
+2021-06-09 16:24:33,157 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=demo, clientId=account-console, userId=null, ipAddress=127.0.0.1, error=invalid_redirect_uri, redirect_uri=http://localhost:8090/auth/realms/GTM/account/
+2021-06-09 16:48:10,979 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=demo, clientId=account-console, userId=null, ipAddress=127.0.0.1, error=invalid_redirect_uri, redirect_uri=http://localhost:8090/auth/realms/GTM/account/
