@@ -155,8 +155,8 @@
                             <max-pool-size>20</max-pool-size>
                         </pool>
                         <security>
-                            <user-name>postgres</user-name>
-                            <password>postgres</password>
+                            <user-name>gtmuser</user-name>
+                            <password>GTMi$thepassw0rd}</password>
                         </security>
 				</datasource>
                 <drivers>
